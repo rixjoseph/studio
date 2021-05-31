@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('studiohome');
+    return view('index');
 });
 
 Route::get('/signup', function () {
